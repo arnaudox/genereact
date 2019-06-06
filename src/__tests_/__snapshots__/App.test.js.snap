@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the routes correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="App__container"
+  >
+    <BrowserRouter>
+      <Switch>
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/button"
+        />
+        <Route
+          component={[Function]}
+          path="/"
+        />
+      </Switch>
+    </BrowserRouter>
+  </div>
+</div>
+`;
