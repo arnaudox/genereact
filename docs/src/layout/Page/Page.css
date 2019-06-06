@@ -1,0 +1,24 @@
+.Page {
+  padding: var(--section-padding);
+}
+
+.Page__body {
+  padding: calc(var(--section-margin) * 1);
+  width: 100%;
+}
+
+.Page__table {
+  min-width: 700px;
+  width: 66%;
+  margin: 0 auto;
+}
+
+.Page__section__title {
+  text-align: center;
+}
+
+.Page__section__code {
+  width: 60%;
+  max-width: 450px;
+  overflow: auto;
+}

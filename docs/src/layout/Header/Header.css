@@ -1,0 +1,27 @@
+.Header {
+  display: flex;
+  flex-direction: column;
+}
+
+.Header__brand,
+.Header__link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.Header__link__logo {
+  width: 50px;
+  height: auto;
+}
+
+.Header__link__title {
+  margin: 0;
+}
+
+.Header__path {
+  margin: var(--element-margin);
+}
+
+.Header__title {
+  padding: var(--section-padding);
+}
