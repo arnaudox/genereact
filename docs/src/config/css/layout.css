@@ -1,0 +1,48 @@
+  :root {
+  /* Main */
+  --space: 2rem;
+
+  /* Colors */
+  --color-alert: var(--color-red);
+  --color-warning: var(--color-orange);
+  --color-action: var(--color-brand-primary);
+  --color-confirm: var(--color-green);
+  --color-cancel: var(--color-extra-light-grey);
+
+  /* Section */
+  --section-padding: var(--space);
+  --section-margin: var(--space);
+  --section-background-color: var(--color-white);
+  --section-box-shadow: 1px 1px 5px var(--color-light-grey);
+  --section-border-radius: var(--border-radius);
+
+  /* Element */
+  --element-padding: calc(var(--space) / 3) calc(var(--space) / 2);
+  --element-margin: calc(var(--space) / 4);
+}
+
+body {
+  color: var(--color-dark-grey);
+  background-color: var(--color-white);
+}
+
+a {
+  opacity: 1;
+  text-decoration: none;
+  color: inherit;
+  transition: opacity .3s ease-in-out;
+}
+
+a:hover {
+  opacity: 0.6;
+  transition: opacity .2s ease-in-out;
+}
+
+td {
+  padding: var(--section-padding);
+  border: 3px solid var(--color-extra-light-grey);
+}
+
+td .Button {
+  margin: 0 auto;
+}
