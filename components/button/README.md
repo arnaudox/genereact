@@ -1,8 +1,8 @@
-# GeneReact Button
+# @geneReact Button
 Generic UI Button component for react.
 
 ## Demo
-...coming soon
+[See a demo and examples here](https://genereact.now.sh/button)
 
 ## Installation
 ```
@@ -11,10 +11,10 @@ npm install @genereact/button --save
 
 ## Usage
 ```
-@import Button from '@genereact/button';
+import Button from '@genereact/button';
 ```
 ### Styles
 ```
-@import '@genereact/button/styles.css';
+import '@genereact/button/styles.css';
 ```
 
