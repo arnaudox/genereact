@@ -17,4 +17,3 @@ import Button from '@genereact/button';
 ```
 import '@genereact/button/styles.css';
 ```
-
