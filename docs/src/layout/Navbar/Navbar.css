@@ -1,0 +1,21 @@
+.Navbar {
+  padding: var(--section-padding);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.Navbar__tab {
+  padding: var(--element-padding);
+  margin: var(--element-margin);
+  background-color: var(--color-light-grey);
+  opacity: 1;
+  transition: opacity .5s ease-in-out;
+}
+
+.Navbar__link {
+  font-size: 1.5em;
+  font-weight: 600;
+}
